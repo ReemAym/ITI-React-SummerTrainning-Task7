@@ -1,0 +1,36 @@
+.container{
+    position: absolute;
+
+left: 50%;
+transform: translateX(-50%);
+}
+#slideshow{
+    width: 650px;
+    height: 450px;
+    
+}
+#slideshow img {
+    display: none;
+    width:100%;
+    height: 95%;
+
+
+    /* width: 400px;
+    height: 300px; */
+}
+#controls {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+#controls input{
+    padding: 7px 9px;
+    border-radius: 10px;
+    background-color: rgb(234, 178, 251);
+    border: 0.5px solid rgba(0, 0, 0, 0.627);
+}
+#controls input:hover{
+    background-color: rgba(230, 169, 249, 0.386);
+
+}

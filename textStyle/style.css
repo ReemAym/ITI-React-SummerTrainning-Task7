@@ -1,0 +1,28 @@
+#PAR {
+    font-family: times new roman;
+    font-size: 16pt;
+    width: 550px;
+    border: solid 1px red;
+    text-align: left;
+    position: relative;
+    margin: 40px;
+    padding: 10px;
+    left: 40%;
+    transform: translateX(-40%);
+}
+table#Text {
+    border-collapse: collapse;
+}
+
+table#Text tr {
+    vertical-align: top;
+    line-height: 1.7;
+}
+
+
+
+table#Text td {
+    font-family: times new roman;
+    font-size: 11pt;
+    padding: 10px;
+}
